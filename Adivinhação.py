@@ -47,6 +47,7 @@ def jogarAdivinhacao():
             print("O número inserido é maior que o número certo")
         
         pontos -= abs(numeroMagico - n)
+    print("jogo acabou.")
 
 if(__name__ == "__main__"):
     jogarAdivinhacao()
